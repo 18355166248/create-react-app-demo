@@ -2362,7 +2362,7 @@ aproba@^1.1.1:
 
 "arctic-business-component@https://github.com/18355166248/arctic-business-component.git#main":
   version "1.0.0"
-  resolved "https://github.com/18355166248/arctic-business-component.git#2461f3f43ee7934d5bb6aca443289a8d346159c3"
+  resolved "https://github.com/18355166248/arctic-business-component.git#72b2d69c153bfe63e288b2bf4136a79995f13649"
 
 argparse@^1.0.7:
   version "1.0.10"

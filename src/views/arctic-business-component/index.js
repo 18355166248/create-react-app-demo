@@ -1,6 +1,6 @@
-import React from "react";
-import { Button } from "antd";
-import { EditTable } from "arctic-business-component";
+import React, { useState } from "react";
+// import { Button, Checkbox } from "antd";
+import { BaseButton, EditTable } from "arctic-business-component";
 
 const themeColor = [
   "#ccc",
@@ -15,9 +15,7 @@ const themeColor = [
 function ArcticBusinessComponent() {
   return (
     <div>
-      <Button type="primary" onClick={changeTheme}>
-        测试
-      </Button>
+      <BaseButton />
       <EditTable />
     </div>
   );
@@ -31,6 +29,10 @@ function ArcticBusinessComponent() {
       .catch((err) => {
         console.error(err.message, "Failed to update theme");
       });
+  }
+
+  function onChange(check) {
+    console.log(check);
   }
 }
 

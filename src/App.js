@@ -1,4 +1,3 @@
-import "./App.css";
 import ArcticBusinessComponent from "./views/arctic-business-component/index";
 
 function App() {
