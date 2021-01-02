@@ -1,6 +1,6 @@
-import ArcticBusinessComponent from "./views/arctic-business-component/index";
+import ArcticBusinessComponent from "./views/business-component";
 
-function App() {
+function App () {
   return (
     <div className="App">
       <main>
